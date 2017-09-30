@@ -1,0 +1,37 @@
+# This is the default format.
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+# permalink: /:categories/:year/:month/:day/:title
+permalink: /blog/:year/:month/:title.html
+
+include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+#markdown: redcarpet
+markdown: kramdown
+highlights: rouge
+lsi: false
+timezone: Asia/Taipei
+safe: false
+paginate: 8
+paginate_path: "posts/page:num"
+
+JB :
+  ASSET_PATH : /assets
+  IMAGE_PATH : /img
+# auto: true # deprecated
+
+# Themes are encouraged to use these universal variables
+# so be sure to set them if your theme uses them.
+#
+url: https://laoata.github.io
+title: 老阿太和孫女的手工小吃舖
+tagline:
+description:
+about:
+author:
+  name: laoata
+  email: laoata_at_gmail.com
+  github: laoata
+  twitter: laoata
+  facebook: laoata
+  googleplus: +laoata
+  feedburner : laoata/github

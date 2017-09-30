@@ -1,0 +1,18 @@
+{
+  "name": "laoata.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bowser": "1.7.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
